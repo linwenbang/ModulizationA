@@ -15,6 +15,8 @@
 		6D05C0071DFFAE56006FD041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D05C0051DFFAE56006FD041 /* LaunchScreen.storyboard */; };
 		6D05C0121DFFAE56006FD041 /* ModulizationATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D05C0111DFFAE56006FD041 /* ModulizationATests.m */; };
 		6D05C01D1DFFAE56006FD041 /* ModulizationAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D05C01C1DFFAE56006FD041 /* ModulizationAUITests.m */; };
+		6D05C06C1DFFCC5F006FD041 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D05C06B1DFFCC5F006FD041 /* AViewController.m */; };
+		6D05C0B31DFFD3B2006FD041 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D05C0B21DFFD3B2006FD041 /* Target_A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		6D05C0181DFFAE56006FD041 /* ModulizationAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModulizationAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D05C01C1DFFAE56006FD041 /* ModulizationAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModulizationAUITests.m; sourceTree = "<group>"; };
 		6D05C01E1DFFAE56006FD041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D05C06A1DFFCC5F006FD041 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		6D05C06B1DFFCC5F006FD041 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		6D05C0B11DFFD3B2006FD041 /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		6D05C0B21DFFD3B2006FD041 /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		6D05BFF61DFFAE56006FD041 /* ModulizationA */ = {
 			isa = PBXGroup;
 			children = (
+				6D05C0B01DFFD3A7006FD041 /* Targets */,
+				6D05C0691DFFC981006FD041 /* ModulizationA */,
 				6D05BFFA1DFFAE56006FD041 /* AppDelegate.h */,
 				6D05BFFB1DFFAE56006FD041 /* AppDelegate.m */,
 				6D05BFFD1DFFAE56006FD041 /* ViewController.h */,
@@ -138,6 +146,24 @@
 				6D05C01E1DFFAE56006FD041 /* Info.plist */,
 			);
 			path = ModulizationAUITests;
+			sourceTree = "<group>";
+		};
+		6D05C0691DFFC981006FD041 /* ModulizationA */ = {
+			isa = PBXGroup;
+			children = (
+				6D05C06A1DFFCC5F006FD041 /* AViewController.h */,
+				6D05C06B1DFFCC5F006FD041 /* AViewController.m */,
+			);
+			path = ModulizationA;
+			sourceTree = "<group>";
+		};
+		6D05C0B01DFFD3A7006FD041 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				6D05C0B11DFFD3B2006FD041 /* Target_A.h */,
+				6D05C0B21DFFD3B2006FD041 /* Target_A.m */,
+			);
+			path = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D05C06C1DFFCC5F006FD041 /* AViewController.m in Sources */,
 				6D05BFFF1DFFAE56006FD041 /* ViewController.m in Sources */,
+				6D05C0B31DFFD3B2006FD041 /* Target_A.m in Sources */,
 				6D05BFFC1DFFAE56006FD041 /* AppDelegate.m in Sources */,
 				6D05BFF91DFFAE56006FD041 /* main.m in Sources */,
 			);
@@ -507,6 +535,7 @@
 				6D05C0231DFFAE56006FD041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D05C0241DFFAE56006FD041 /* Build configuration list for PBXNativeTarget "ModulizationATests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +544,7 @@
 				6D05C0261DFFAE56006FD041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D05C0271DFFAE56006FD041 /* Build configuration list for PBXNativeTarget "ModulizationAUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +553,7 @@
 				6D05C0291DFFAE56006FD041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
