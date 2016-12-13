@@ -8,6 +8,7 @@
 
 #import "Target_A.h"
 #import "AViewController.h"
+#import "BViewController.h"
 
 @implementation Target_A
 
