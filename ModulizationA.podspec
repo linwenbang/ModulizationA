@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ModulizationA"
-  s.version      = "1.0.1"
+  s.version      = "1.0.3"
   s.summary      = "ModulizationA."
 
   # This description is used to generate tags and improve search results.
@@ -136,5 +136,7 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
+  s.resource = ["#{s.name}/ModulizationA/Xibs/**"]
+
 
 end
